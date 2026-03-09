@@ -1,3 +1,5 @@
+
+//sao đéo đổi gì hết vậy ? 
 // ===== CAMERA SETUP =====
 
 const video = document.getElementById("video");
