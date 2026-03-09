@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI Ballot Counter</title>
+<link rel="stylesheet" href="style.css">
+
+<script async src="https://docs.opencv.org/4.x/opencv.js"></script>
+</head>
+
+<body>
+
+<h1>AI Ballot Counter</h1>
+
+<video id="video" autoplay></video>
+<br>
+
+<button onclick="captureBallot()">Scan Ballot</button>
+
+<canvas id="canvas"></canvas>
+
+<h2>Vote Results</h2>
+
+<ul id="results">
+<li>Nguyen Van A : <span id="A">0</span></li>
+<li>Tran Van B : <span id="B">0</span></li>
+<li>Vu Thi C : <span id="C">0</span></li>
+<li>Duong Van A : <span id="D">0</span></li>
+<li>Nguyen Van D : <span id="E">0</span></li>
+</ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
